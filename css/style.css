@@ -48,3 +48,10 @@ p{
 .card, .col-md-8{
     display: none;
 }
+
+@media screen and (max-width: 425px){
+    h2{
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+}

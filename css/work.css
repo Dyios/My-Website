@@ -9,7 +9,7 @@ body{
     background-color: rgba(0, 123, 255, 0.1);
     max-height: 150px;
     width: 0%;
-    overflow: hidden;
+    overflow: auto;
     margin-left: 0;
 }
 .work{

@@ -1,9 +1,6 @@
 h2, .detail , .accordion{
     font-family: 'Bitter', serif;
 }
-button{
-    width: 15%;
-}
 button:hover{
     transform: scale(1.1);
 }
