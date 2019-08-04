@@ -1,0 +1,67 @@
+h2, .detail , .accordion{
+    font-family: 'Bitter', serif;
+}
+button{
+    width: 15%;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:focus{
+    outline: none;
+}
+.MySkills{
+    color: rgb(231, 227, 255);
+    font-family: 'Bitter', serif;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    cursor: context-menu;
+    transform: scaleX(1.2);
+}
+nav [class~='nav-link']{
+    letter-spacing: 2px;
+}
+nav a.nav-link{
+    transition-duration: 1s;
+}
+nav a.nav-link:hover{
+    transform: scale(1.4);
+    height: 1.8em;
+    background-color: rgba(0, 123, 255, 1);
+    border-radius: 5%;
+    transition-duration: .4s;
+}
+.navbar-nav{
+    width: 500px;
+}
+.nav-item{
+    margin: auto;
+}
+.nav-link{
+    text-align: center;
+}
+li{
+    font-family: 'Bitter', serif;
+}
+.bg-blue{
+    background-color: rgba(0, 123, 255, 1);
+}
+@media screen and (max-width: 767px){
+    .navbar-nav{
+        width: auto;
+    }
+    nav a.nav-link{
+        margin: 6px 0px;
+        padding: 0px 0px;        
+    }
+    nav a.nav-link:hover{
+        height: auto;
+        width: 200px;
+        padding: 0px 0px;
+        border-radius: 50%;
+        background: radial-gradient(ellipse closest-side at center ,#007BFF ,transparent 100%);
+        mix-blend-mode: normal;
+    }
+}

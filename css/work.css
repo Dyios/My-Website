@@ -1,0 +1,22 @@
+body{
+    background-image: url('../images/—Pngtree—fashion\ lines\ cool\ black\ background_540920.jpg');
+    background-position-x: right
+}
+.main-frame{
+    border: 6px ridge #007bff;
+    border-radius: 2em;
+    box-shadow: -5px 10px 10px rgb(0, 0, 0);
+    background-color: rgba(0, 123, 255, 0.1);
+    max-height: 150px;
+    width: 0%;
+    overflow: hidden;
+    margin-left: 0;
+}
+.work{
+    font-family: Tahoma, Geneva, sans-serif
+}
+.visite{
+    font-family: 'Bitter', serif;
+    letter-spacing: 0.1em;
+    font-style: italic;
+}

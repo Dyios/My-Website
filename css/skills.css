@@ -1,0 +1,55 @@
+body{
+    padding-top: 0px;
+    background-image: url('../images/—Pngtree—fashion\ lines\ cool\ black\ background_540920.jpg');
+    background-repeat: repeat-y;
+}.MySkills{
+    color: rgb(231, 227, 255);
+}
+h2{
+    margin-bottom: 3%;
+}
+.card-deck, .card-columns{
+    background-color: rgba(219, 213, 255,0);
+}
+.card{
+    box-shadow: -0px 0px 20px black;
+    background-color: rgba(0, 123, 255, 0.8);
+}
+.card-text{
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+    font-size: 20px;
+}
+p~ul li{
+    list-style-type: disc;
+}
+ul:nth-child(3) li{
+    list-style-type: none;
+}
+strong{
+    text-decoration-line: underline;
+}
+i{
+    color: rgb(58, 58, 58);
+}
+.description{
+    font-family: 'Poppins', sans-serif;
+}
+button.MySkills{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 2rem;
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+}
+button:focus{
+    outline:none
+}
+hr.bg-primary, [data-toggle=show], #education, #experience{
+    display: none;
+}
+.badge{
+    color: rgb(219, 213, 255);
+}

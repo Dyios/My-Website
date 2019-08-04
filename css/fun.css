@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/—Pngtree—textured\ striped\ texture\ black\ background_149442.jpg");
+}
+.card-title{
+    font-family: 'Bitter', serif;
+}
+.card{
+    box-shadow: 0px 0px 20px black;
+    transform: scale(0.8);
+    transition-duration: .8s;
+}
+.card:hover{
+    transform: scale(1);
+}
+.modal-content{
+    background-color: rgb(53, 53, 53);
+    border: 3px inset #007bff;
+    box-shadow: 0px 0px 10px black;
+}
+.modal-header{
+    color: #007bff;
+}
+.modal-body{
+    color: rgb(235, 232, 255);
+}
