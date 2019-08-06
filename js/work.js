@@ -1,3 +1,3 @@
 $(function(){
-    $('.main-frame').animate({width : '100%'},1000);
+    //$('.main-frame').animate({width : '100%'},1000);
 });

@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 h2, .detail , .accordion{
     font-family: 'Bitter', serif;
 }
@@ -39,7 +42,7 @@ nav a.nav-link:hover{
 .nav-link{
     text-align: center;
 }
-li.nav-item{
+li.nav-item, .card-body li{
     font-family: 'Bitter', serif;
 }
 .bg-blue{

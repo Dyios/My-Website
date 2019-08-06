@@ -14,11 +14,22 @@ h2{
 .card{
     box-shadow: -0px 0px 20px black;
     background-color: rgba(0, 123, 255, 0.8);
+    border-radius: 0px 30px;
 }
 .card-text{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;    /*font-family: 'Bitter', serif;*/
     text-decoration: underline;
     font-size: 20px;
+    background-color: gray;
+    box-shadow: 0px 10px 10px black;
+    width: 100%;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.15);
+}
+.card-body ul{
+    margin-top: 20px;
 }
 p~ul li{
     list-style-type: disc;
@@ -32,7 +43,7 @@ strong{
 i{
     color: rgb(58, 58, 58);
 }
-.description{
+.description, .more-details{
     font-family: 'Poppins', sans-serif;
 }
 button.MySkills{
@@ -50,6 +61,101 @@ button:focus{
 hr.bg-primary, [data-toggle=show], #education, #experience{
     display: none;
 }
+.education-item{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    margin-right: 20%;
+}
+.main-content{
+    width: 30vw;
+    background-color: rgba(0, 123, 255, 0.8);
+    border-radius: 30px 0px;
+    padding: 5px 0px;
+}
+.responsable-time{
+    position: relative;
+    left: -20vw;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.respensable{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: grey;
+    box-shadow: 5px 10px 10px 1px black;
+    transform: skewX(-20deg)
+}
+.time{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(231, 227, 255);
+}
+.more-details{
+    padding: 20px;
+}
 .badge{
     color: rgb(219, 213, 255);
+}
+@media screen and (max-width: 770px){
+    .education-item{
+        margin-right: 5%;
+    }
+    .main-content{
+        width: 45vw;
+    }
+    .responsable-time{
+        left: -35vw;
+        width: 75vw;
+    }
+}
+@media screen and (max-width: 425px){
+    .education-item{
+        margin-right: 0%;
+    }
+    .main-content{
+        width: 70vw;
+    }
+    .responsable-time{
+        left: -10vw;
+        width: auto;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .respensable{
+        width: 300px;
+    }
+    .time{
+        height: auto;
+        padding-right: 12px;
+    }
+}
+@media screen and (max-width: 375px){
+    .main-content{
+        width: 100vw;
+    }
+    .responsable-time{
+        left: 0px;
+        width: auto;
+    }
+    .respensable{
+        width: 250px;
+        transform: skewY(0);
+    }
+    .time{
+        margin-bottom: 0px;
+    }
+    .more-details{
+        padding-top: 10px;
+    }
 }
