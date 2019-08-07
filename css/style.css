@@ -12,7 +12,7 @@ body{
     z-index: -1;
 }
 .jumbotron h1 , .jumbotron p{
-    color: rgb(231, 227, 255);
+    color: rgb(233, 233, 233);
     font-family: 'Lora', serif;
 }
 .img-profil{
