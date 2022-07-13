@@ -12,6 +12,9 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/87a5cba823.js"></script>
 
+  <!-- Icons from devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:700&display=swap" rel="stylesheet">
@@ -51,69 +54,97 @@
   </nav>
   <div class="container mt-3">
     <button class="MySkills showed" data-toggle="show" data-target="#skills" id="s">My Skills :</button>
-    <div class="card-deck d-none mt-2" id="skills">
+    <div class="cards-container d-none mt-2" id="skills">
       <div class="card">
         <div class="card-body">
-          <p class="card-text text-center">Programming</p>
-          <ul>
-            <li>C, C++ and Qt.</li>
-            <li>Python.</li>
+          <p class="card-text text-center">Programing Languages</p>
+          <ul class="card-items">
+            <li>
+              <i class="devicon-c-plain"></i>
+              <p>C</p>
+            </li>
+            <li>
+              <i class="devicon-cplusplus-plain"></i>
+              <p>C++</p>
+            </li>
+            <li>
+              <i class="devicon-java-plain"></i>
+              <p>Java</p>
+            </li>
+            <li>
+              <i class="devicon-javascript-plain"></i>
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <i class="devicon-python-plain"></i>
+              <p>Python</p>
+            </li>
           </ul>
-          <p class="detail text-justify mt-4">
-            I am able to build fast and performant programmes using C and C++ languges with a smooth and nice user
-            interface using Qt.
-            On the other hand python is my favorite language to do programmes that automates the tasks and much more.
-          </p>
-          <div class="text-center mt-5 d-flex justify-content-around">
-            <i class="far fa-file-code fa-3x"></i>
-            <i class="fab fa-python fa-3x"></i>
-          </div>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
-          <p class="card-text text-center">Client side</p>
+          <p class="card-text text-center">Web</p>
           <ul>
-            <li>HTML and CSS.</li>
-            <li>javascript (and p5.js).</li>
+            <li>
+              <i class="devicon-html5-plain"></i>
+              <p>HTML</p>
+            </li>
+            <li>
+              <i class="devicon-css3-plain"></i>
+              <p>CSS</p>
+            </li>
+            <li>
+              <i class="devicon-javascript-plain"></i>
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <i class="devicon-react-plain"></i>
+              <p>React</p>
+            </li>
+            <li>
+              <i class="devicon-nextjs-plain"></i>
+              <p>Next</p>
+            </li>
           </ul>
-          <p class="detail text-justify mt-4">
-            HTML and CSS have no secrets for me. Using the latest version of <strong>Bootstrap</strong>
-            (bootstrap 4) to create beautiful and <strong>respensive</strong> websites for all diveces.
-            Combining that with javascript and <strong>JQuery</strong> to make it dynamique and
-            interactive.
-          </p>
-          <div class="text-center mt-5 d-flex justify-content-around">
-            <i class="fab fa-html5 fa-3x"></i>
-            <i class="fab fa-css3-alt fa-3x"></i>
-            <i class="fab fa-bootstrap fa-3x"></i>
-            <i class="fab fa-js fa-3x"></i>
-            <img src="../icons/Logo-JQuery-128.png" alt="JQuery"
-              style="height: 46px;width: 42px; padding-top: 2px;"></img>
-          </div>
         </div>
       </div>
-
-      <div class="w-100 p-2 d-none d-sm-block d-lg-none" ></div>
       <div class="card">
         <div class="card-body">
-          <p class="card-text text-center">Server side</p>
+          <p class="card-text text-center">DBMS </p>
           <ul>
-            <li>PHP 7.</li>
-            <li>MySQL.</li>
+            <li>
+              <i class="devicon-mysql-plain"></i>
+              <p>MySQL</p>
+            </li>
+            <li>
+              <i class="devicon-mongodb-plain"></i>
+              <p>MongoDB</p>
+            </li>
+            <li>
+              <i class="devicon-firebase-plain"></i>
+              <p>Firebase</p>
+            </li>
           </ul>
-          <p class="detail text-justify mt-4">
-            Make powerful back-end for websites in order to have a complet and dynamique site that's easy to
-            update and maintain over time, also add SQL code to communicate and make changes to databases
-            which offers more possibilities.
-          </p>
-          <div class="text-center mt-5 d-flex justify-content-around">
-            <i class="fab fa-php fa-3x"></i>
-            <i class="fas fa-database fa-3x"></i>
-          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text text-center">Version control</p>
+          <ul>
+            <li>
+              <i class="devicon-git-plain"></i>
+              <p>Git</p>
+            </li>
+            <li>
+              <i class="devicon-github-original"></i>
+              <p>Github</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <div class="container mt-3">
     <hr class="bg-primary">
@@ -122,14 +153,68 @@
       <div class="education-item">
         <div class="main-content">
           <div class="responsable-time">
-            <h2 class="respensable">M'hamed Bougara University.</h2>
-            <p class="time ">2017 - present</p>
+            <h2 class="respensable">Master degree in computer science</h2>
+            <p class="time">M'hamed Bougara University <br />(2020 - 2022)</p>
           </div>
-          <p class="more-details">Student in informatique.</p>
+          <div class="more-details">
+            <p><span>Thesis:</span> Ransomware detection using machine learning.</p>
+            <p>&emsp;Ransomwares are a huge threat to our society, indeed computing has become an
+              important part of our daily lives, lots of information is stored on it, such as family photos,
+              important documents, personal projects and more sensitive informations in the case of
+              enterprises and state establishments. Additionally, cryptocurrencies have become more
+              popular, making ransom collection easier and almost risk-free. Ransomware has evolved in
+              order to implement techniques to avoid detection, among these techniques, the pre-attack
+              phase, which aims to analyze the execution environment before launching the attack, in our
+              study we used the Ransomware behavior during this phase through the API calls. We
+              collected 631 ransomware samples, and we performed the dynamic analysis on them thanks to
+              cuckoo sandbox which is an automatic analysis tool, from the report generated by the
+              analysis, we extracted the evasion API which represents the suspicious ransomware behavior
+              that determines whether the attack is launched or not, then we used recursive feature
+              elimination (RFE) to keep the most relevant APIs to then test with four machine learning
+              models: decision tree , random forest, k nearest neighbors and support vector machine. The
+              results showed that our approach is highly effective in detecting ransomwares with an
+              accuracy of 98.41%.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="education-item">
+        <div class="main-content">
+          <div class="responsable-time">
+            <h2 class="respensable">Bachelor degree in computer science</h2>
+            <p class="time">M'hamed Bougara University <br />(2017 - 2020)</p>
+          </div>
+          <div class="more-details">
+            <p><span>Thesis:</span> Diagnosis of covid-19 from medical images using deep learning.</p>
+            <p>&emsp;Coronavirus (COVID-19) is an infectious disease caused by a novel SARS-CoV-2
+              coronavirus, which affected at the time of the seizure of these lines, 48 million individuals
+              worldwide and caused 1.2 million deaths. Most people infected with the virus suffer from a
+              respiratory disorder, and eventually recover without requiring special treatment. Seniors and
+              those with medical conditions such as cardiovascular disease, diabetes and cancer are more
+              likely to develop serious complications. Although the PCR: polymerase chain reaction test is
+              the most commonly used molecular test. It is very specific, but results are available in a few
+              days to confirm COVID-19 infection. In addition, they are expensive and unavailable in less
+              fortunate countries. RTD Rapid tests detect viral proteins, they are cheaper than PCR and
+              deliver results in minutes, although they are usually less accurate. Due to the importance and
+              demonstrated urgency of such a virus, rapid, affordable and highly accurate testing is
+              required. Therefore, the automatic diagnosis by analysis and recognition of medical images
+              represents an important alternative, which adapts well to the urgency and offers very
+              interesting accuracy rates. It is within the framework of contribution that our contribution is
+              made, to develop an automatic diagnostic system through the use of the latest innovations in
+              deep learning and convolutive neural networks CNN. They have revolutionized the health
+              sector because of their high performance. Deep learning optimizes diagnosis through medical
+              imaging and reduces subjectivity and errors due to distraction, case complexity,
+              misapplication of rules, or lack of knowledge. Chest X-ray imaging is suitable for scanning,
+              accessibility and cost. The purpose of this work is to implement a deep learning approach to
+              diagnose Covid-19 through image analysis viruses are present. The proposed transfer learning
+              system is based on the VGG16 model and achieves a promising accuracy of 98.65%.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <!--
   <div class="container my-3">
     <hr class="bg-primary">
     <button class="MySkills showed" data-toggle="show" data-target="#experience" id="x">Experience :</button>
@@ -138,16 +223,18 @@
       <div class="card-body pt-0 description">None.</div>
     </div>
   </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
-    <!-- My Script-->
-    <script src="../js/nav.js"></script>
-    <script src="../js/skills.js"></script>
+  <!-- My Script-->
+  <script src="../js/nav.js"></script>
+  <script src="../js/skills.js"></script>
 </body>
+
 </html>
