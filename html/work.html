@@ -9,6 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/efd6402648.js" crossorigin="anonymous"></script>
+
+    <!-- Icons from devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:700&display=swap" rel="stylesheet">
@@ -47,15 +53,102 @@
         </div>
     </nav>
     <div class="main-frame">
-        <h2 class="MySkills">Web:</h2>
-        <ul>
-            <li class="MySkills work">
-                Single page application that calculate the rate for informatique students. (in 2019 - 
-                <a class="visite" href="http://moyen-l2.netlify.com" target="_blank" rel="noopener noreferrer">visite</a> )
+        <h2 class="MySkills title">Websites</h2>
+        <ul class="work-container">
+            <li class="MySkills work work-item">
+                <img class="project-img" src="../images/url-shortening.png" />
+                <p class="project-description">
+                    Shorty, is a url shortening application that uses shrtco API to generate
+                    short url for the provided long url. With the possibility to log in and
+                    manage your short urls. (The API takes a while to responde the first time)
+                </p>
+                <div class="work-links">
+                    <a href="https://url-shortening-dyios.vercel.app/" target="_blank">
+                        <button class="source-btn">
+                            <span>Live</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </a>
+                    <a href="https://github.com/Dyios/url-shortening" target="_blank">
+                        <button class="source-btn">
+                            <span>Source</span>
+                            <i class="devicon-github-original"></i>
+                        </button>
+                    </a>
+                </div>
+            </li>
+            <li class="MySkills work work-item">
+                <img class="project-img" src="../images/countries.png" />
+                <p class="project-description">
+                    A react application to view the details of countries (population, capital, domain, etc...). Data is
+                    fetched from REST countries API.
+                </p>
+                <div class="work-links">
+                    <a href="https://dyios.github.io/countries/#/" target="_blank">
+                        <button class="source-btn">
+                            <span>Live</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </a>
+                    <a href="https://github.com/Dyios/countries" target="_blank">
+                        <button class="source-btn">
+                            <span>Source</span>
+                            <i class="devicon-github-original"></i>
+                        </button>
+                    </a>
+                </div>
+            </li>
+            <li class="MySkills work work-item">
+                <img class="project-img" src="../images/advice-generator.png" />
+                <p class="project-description">
+                    Small web application that allows users to generate random advices.
+                    Advices are fetched from the advice slip API. (The API has un anti-spam protection)
+                </p>
+                <div class="work-links">
+                    <a href="https://dyios.github.io/advice-generator/" target="_blank">
+                        <button class="source-btn">
+                            <span>Live</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </a>
+                    <a href="https://github.com/Dyios/advice-generator" target="_blank">
+                        <button class="source-btn">
+                            <span>Source</span>
+                            <i class="devicon-github-original"></i>
+                        </button>
+                    </a>
+                </div>
+            </li>
+            <li class="MySkills work work-item">
+                <img class="project-img" src="../images/moyen-l2.png" />
+                <p class="project-description">
+                    A single page application created with vanilla JavaScript that helps
+                    computer science students of UMBB university to calculate their mean.
+                </p>
+                <div class="work-links">
+                    <a href="https://rafik-tolba.netlify.app/" target="_blank">
+                        <button class="source-btn">
+                            <span>Live</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </a>
+                    <a href="https://github.com/Dyios/My-Website" target="_blank">
+                        <button class="source-btn">
+                            <span>Source</span>
+                            <i class="devicon-github-original"></i>
+                        </button>
+                    </a>
+                </div>
             </li>
         </ul>
+        <p class="more-projects">You can find more of my projects on
+            <a href="https://www.frontendmentor.io/profile/Dyios" target="_blank" class="underline">Frontend Mentor</a>
+            and
+            <a href="https://github.com/Dyios" target="_blank" class="underline">Github</a>
+            .
+        </p>
     </div>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
