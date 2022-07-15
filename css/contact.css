@@ -1,0 +1,67 @@
+body {
+  background-image: url("../images/—Pngtree—fashion\ lines\ cool\ black\ background_540920.jpg");
+  background-position-x: center;
+}
+h1 {
+  font-size: 2rem;
+}
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: rgb(233, 233, 233);
+  font-family: "Lora", serif;
+  opacity: 0;
+  animation-name: main-animation;
+  animation-duration: 2s;
+  animation-delay: 0.9s;
+  animation-fill-mode: forwards;
+}
+.contact-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-title::before {
+  content: "";
+  position: absolute;
+  left: -93%;
+  width: 89%;
+  height: 3px;
+  background-color: rgba(0, 123, 255, 0.9);
+}
+.contact-title::after {
+  content: "";
+  position: absolute;
+  right: -93%;
+  width: 89%;
+  height: 3px;
+  background-color: rgba(0, 123, 255, 0.9);
+}
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+}
+.form-control,
+.form-control:focus {
+  color: black;
+  text-transform: capitalizee;
+}
+.fa-send {
+  font-size: 1rem;
+  padding-left: 7px;
+}
+
+@keyframes main-animation {
+  0% {
+    transform: skew(50deg, 50deg);
+    opacity: 0;
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+    opacity: 1;
+  }
+}

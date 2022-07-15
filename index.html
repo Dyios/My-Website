@@ -26,7 +26,7 @@
 </head>
 
 <body class="containerr">
-    <nav class="navbar navbar-dark navbar-expand-md d-none">
+    <nav class="navbar navbar-dark navbar-expand-md">
         <div class="container">
             <div class="navbar-brand">Dyios</div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -39,13 +39,16 @@
                         <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/skills.html">skills</a>
+                        <a class="nav-link" href="html/skills.html">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./html/work.html">Work</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./html/fun.html">Fun!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -55,22 +58,20 @@
         <h1 class="mb-0">TOLBA RAFIK</h1>
         <p class="">- Software Engineer -</p>
         <div class="icons">
-            <a href="https://www.linkedin.com/in/tolba-rafik-30073b229/" title="Linkedin">
+            <a href="https://www.linkedin.com/in/tolba-rafik-30073b229/" title="Linkedin" target="_blank">
                 <i class="devicon-linkedin-plain colored"></i>
             </a>
-            <a href="https://github.com/Dyios" title="Github">
+            <a href="https://github.com/Dyios" title="Github" target="_blank">
                 <i class="devicon-github-original"></i>
             </a>
-            <a href="https://www.frontendmentor.io/profile/Dyios" title="Frontend Mentor">
+            <a href="https://www.frontendmentor.io/profile/Dyios" title="Frontend Mentor" target="_blank">
                 <img class="frontendmentor-icon" src="/images/frontendmentor.png" />
             </a>
         </div>
     </div>
     <div class="middle-section-container container">
-        <div class="">
-            <div class="card">
-                <img src="./images/profil.png" class="img-thumbnail card-body img-profil" alt="TOLBA RAFIK">
-            </div>
+        <div class="card image-container">
+            <img src="./images/me.png" class="img-thumbnail card-body img-profil" alt="TOLBA RAFIK">
         </div>
         <div class="lead text-justify col-md-8 px-5">
             <h2 class="text-center mb-3">
@@ -97,7 +98,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="text-center nav-link pt-0">Copyright &copy;2019 Tolba Rafik - All rights reserved</a>
+                <a class="text-center nav-link pt-0">Copyright &copy;<span id="year"></span> Tolba Rafik - All rights
+                    reserved</a>
             </li>
     </footer>
     <!-- Optional JavaScript -->

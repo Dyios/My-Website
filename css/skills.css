@@ -131,7 +131,6 @@ hr.bg-primary,
 }
 .more-details > p:first-child {
   font-size: 1.2rem;
-  font-style: italic;
   font-weight: 700;
 }
 .more-details > p:first-child > span {
